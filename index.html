@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>碧翠果園 | HEKISUI ORCHARD</title>
+    <!-- Tailwind CSSを直接読み込むことでデザイン崩れとビルドエラーを防ぎます -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* フォントやスクロールの微調整 */
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700&display=swap');
+      body { font-family: 'Noto Sans JP', sans-serif; margin: 0; background-color: #FDFCFB; }
+      html { scroll-behavior: smooth; }
+    </style>
   </head>
   <body>
+    <!-- Reactがページを描画するためのターゲット要素（これがないと白い画面になります） -->
     <div id="root"></div>
+    <!-- プログラムの読み込み（パスを src/main.jsx に固定） -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
