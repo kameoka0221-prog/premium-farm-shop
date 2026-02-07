@@ -64,17 +64,17 @@ const PRODUCTS = [
   { 
     id: 1, nameKey: 'mikan', price: 4800, brix: 13.5, acid: 0.8, size: 'L', 
     img: 'https://images.unsplash.com/photo-1611080626919-7cf5a9dcab5b?auto=format&fit=crop&q=80&w=800',
-    stripePriceId: 'price_あなたのミカンID' 
+    stripePriceId: 'price_1SyBZI1GyBXkmkVBT9lcZcUx' 
   },
   { 
     id: 2, nameKey: 'hassaku', price: 5200, brix: 11.2, acid: 1.5, size: 'M', 
     img: 'https://images.unsplash.com/photo-1557800636-894a64c1696f?auto=format&fit=crop&q=80&w=800',
-    stripePriceId: 'price_あなたの八朔ID' 
+    stripePriceId: 'price_1SyBZh1GyBXkmkVBCsnXB1LF' 
   },
   { 
     id: 3, nameKey: 'shiranui', price: 6500, brix: 15.0, acid: 1.1, size: 'L', 
     img: 'https://images.unsplash.com/photo-1591206111081-1756b342e811?auto=format&fit=crop&q=80&w=800',
-    stripePriceId: 'price_あなたの不知火ID'
+    stripePriceId: 'price_1SyBa51GyBXkmkVBmIWs60Pj'
   },
 ];
 
